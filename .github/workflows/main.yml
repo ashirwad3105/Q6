@@ -35,7 +35,7 @@ jobs:
           npm test >> shared_logs/build.log 2>&1
 
       - name: Upload build log
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: build-log
           path: shared_logs/build.log
