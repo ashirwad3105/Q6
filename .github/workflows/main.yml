@@ -14,7 +14,7 @@ jobs:
         run: mkdir -p shared_logs
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v2
         with:
           node-version: "18"
           cache: "npm"
